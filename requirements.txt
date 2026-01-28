@@ -1,0 +1,3 @@
+# Required: none (pure Python)
+# Optional for plots:
+matplotlib>=3.5

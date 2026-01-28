@@ -1,0 +1,12 @@
+{
+  "duration_s": 600,
+  "dt_s": 1.0,
+  "payload_bytes": 24,
+  "seed": 42,
+  "signal_base": 20.0,
+  "signal_amp": 3.0,
+  "signal_period_s": 120.0,
+  "noise_std": 0.2,
+  "change_threshold": 0.5,
+  "max_silence_s": 30
+}
