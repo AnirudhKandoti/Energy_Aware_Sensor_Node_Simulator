@@ -1,0 +1,40 @@
+{
+  "policy": "adaptive_b2s_th0.5_ms30s",
+  "config": {
+    "duration_s": 600,
+    "dt_s": 1.0,
+    "payload_bytes": 24,
+    "seed": 42,
+    "signal_base": 20.0,
+    "signal_amp": 3.0,
+    "signal_period_s": 120.0,
+    "noise_std": 0.2,
+    "change_threshold": 0.5,
+    "max_silence_s": 30
+  },
+  "energy_model": {
+    "power_sleep_mw": 0.5,
+    "power_idle_awake_mw": 15.0,
+    "power_cpu_mw": 35.0,
+    "power_sense_mw": 25.0,
+    "power_tx_mw": 120.0,
+    "t_sense_s": 0.01,
+    "t_cpu_s": 0.004,
+    "bitrate_bps": 250000.0,
+    "tx_overhead_s": 0.002
+  },
+  "summary": {
+    "duration_s": 600,
+    "samples_taken": 301,
+    "packets_sent": 93,
+    "mae": 0.32337565666484264,
+    "energy_total_mj": 9163.28088,
+    "energy_breakdown_mj": {
+      "sleep": 0.0,
+      "idle_awake": 9015.0,
+      "sensing": 75.25,
+      "cpu": 42.14000000000013,
+      "tx": 30.89088000000008
+    }
+  }
+}
