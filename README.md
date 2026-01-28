@@ -34,6 +34,15 @@ Each run saves:
   - `signal.png`
   - `energy_breakdown.png`
 
+## Results (Example Output)
+
+### Signal: Ground Truth vs Reconstructed
+![Signal Plot](results/plots/signal.png)
+
+### Energy Breakdown
+![Energy Breakdown](results/plots/energy_breakdown.png)
+
+
 ## Notes
 - The energy units are **mJ** (millijoules) using **mW × seconds** accounting.
 - Wireless link is mocked: we only model transmission time/energy, not real packet delivery.
